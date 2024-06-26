@@ -9,7 +9,7 @@ body{
 .clock{
     width: 300px;
     height: 300px;
-    border-radius: 50%;
+    border-radius: 80%;
     background-color: white;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
@@ -37,12 +37,12 @@ body{
 }
 .minute-hand{
     width: 3px;
-    height: 60px;
+    height: 80px;
     transform-origin:50% 100% ;
 }
 .second-hand{
     width: 2px;
-    height: 70px;
+    height: 90px;
     transform-origin: 50% 100%;
     background-color:red;
 
@@ -52,7 +52,7 @@ body{
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: black;
+    background-color: blue;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
